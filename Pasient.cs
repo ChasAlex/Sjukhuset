@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,7 +11,7 @@ namespace Sjukhuset
         public string _recept;
         public string _diagnosis;
 
-        Pasient(string name)
+        public Pasient(string name)
         {
             _name = name;
             _recept = "Has no Prescription";
@@ -25,3 +25,4 @@ namespace Sjukhuset
 
     }
 }
+
