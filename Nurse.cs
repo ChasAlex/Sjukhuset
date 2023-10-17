@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
@@ -12,8 +12,9 @@ namespace Sjukhuset
         private bool _dayShift;
 
 
-        Nurse(string name ) {
-        
+        public Nurse(string name, bool dayshift ) {
+            _name = name;
+            _dayShift = dayshift;
         
         
         }
