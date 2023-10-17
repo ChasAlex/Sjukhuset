@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,7 +14,8 @@ namespace Sjukhuset
         public Doctor(double salary, string name)
         {
             _salary = salary;
-            _name = name;   
+            _name = name;
+            
         }
 
         void WritePrescription(string drug, Pasient myPatient)
